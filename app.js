@@ -4,8 +4,8 @@ const PORT = 3000;
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from GitOps CI/CD!',
-    version: 'v1.0',
+    message: 'Hello from GitOps CI/CD v2!',
+    version: 'v2.0',
     timestamp: new Date().toISOString()
   });
 });
